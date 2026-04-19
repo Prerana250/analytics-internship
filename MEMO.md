@@ -21,7 +21,7 @@ The AI frequently labels future customer desires as current product use cases. I
 ### 2. Environmental Noise (False Positives)
 The pipeline struggles to distinguish between actual hazards and stationary warehouse objects. Mostly seen, in file `eeff5c72`, a customer disabled the obstruction detection feature because the system **"kept just randomly picking up a rug."** Persistent noise of this nature leads to "alert fatigue" and product churn.
 
-### 3. Functional Over-Counting
+### 3.Administrative Over-Counting
 Approximately **17.5%** of extractions are standard software features (e.g., the "Actions" workflow) rather than unique AI detections. This inflates the perceived value of the AI while obscuring the actual safety trends Voxel is supposed to be uncovering.
 
 
